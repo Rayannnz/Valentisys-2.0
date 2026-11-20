@@ -1,0 +1,17 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "side-tab",
+        "value": "*",
+        "files": [
+          "app/site.css"
+        ],
+        "createdAt": "2026-11-20T17:24:51.562Z",
+        "reason": "Claude decided: the .ap-card hover top bar is an animation copied from the original site, which the user asked for ('copy rest of the site and animations'); not individually confirmed by the user"
+      }
+    ]
+  }
+}
